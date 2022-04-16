@@ -323,7 +323,7 @@
                     <p class="name">Ricardo T. Obrien</p>
                     <div class="team-social btn-ri"></div>
                     <div class="social-box-ri">
-                        <div class="link-social-box">
+                        <div class="link-social-box btn-box"style="display:none" >
                             <a href="" class="link-social link-fb"></a>
                             <a href="" class="link-social link-tv"></a>
                             <a href="" class="link-social link-be"></a>
@@ -335,9 +335,9 @@
                     <img src="IMG/al.png" alt="Alberto">
                     <p class="position">ceo</p>
                     <p class="name">Alberto Del Rio</p>
-                    <div class=" btn-alberto"></div>
-                    <div class="social-box-alberto">
-                        <div class="link-social-box">
+                    <div class="team-social btn-alberto"></div>
+                    <div class="social-box-al">
+                        <div class="link-social-box btn-box" style="display:none">
                             <a href="" class="link-social link-fb"></a>
                             <a href="" class="link-social link-tv"></a>
                             <a href="" class="link-social link-be"></a>
@@ -351,7 +351,7 @@
                     <p class="name">Thomas Alva Adison</p>
                     <div class="team-social btn-alva"></div>
                     <div class="social-box-th">
-                        <div class="link-social-box">
+                        <div class="link-social-box btn-box" style="display:none">
                             <a href="" class="link-social link-fb"></a>
                             <a href="" class="link-social link-tv"></a>
                             <a href="" class="link-social link-be"></a>
@@ -398,6 +398,17 @@
                </ul>
             </div>
         </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+             $(document).ready(function(){
+                $(".team-social").click(function(){
+                    $(".team-social").hide();
+                    $(".btn-box").fadeIn();
+                });
+            });
+        </script>
 
     </body>
 

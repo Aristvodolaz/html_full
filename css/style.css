@@ -119,7 +119,6 @@ h1 {
     position: absolute;
     top: 200px;
     right: 0px;
-
 }
 .logo {
     display: block;
@@ -1437,7 +1436,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10359f', end
     margin: 0 auto 20px;
     background-image: url(../IMG/soc.png);
 }
-
+.btn-ri{
+    background: #f3f3f3;
+    
+    border-radius: 50%;
+    background-position: -20px 5px;
+    margin: 0 auto 20px;
+    background-image: url(../IMG/soc.png);
+}
+.btn-alva{
+    background: #f3f3f3;
+    
+    border-radius: 50%;
+    background-position: -20px 5px;
+    margin: 0 auto 20px;
+    background-image: url(../IMG/soc.png);
+}
+.btn-ri:hover{
+    background-color: #1a88e1;
+    background-position: -22px 55px;
+    box-shadow: 2px 8px 15px rgb(180 181 181 / 20%);
+}
+.btn-alva:hover{
+    background-color: #1a88e1;
+    background-position: -22px 55px;
+    box-shadow: 2px 8px 15px rgb(180 181 181 / 20%);
+}
 .btn-alberto:hover{
     background-color: #1a88e1;
     background-position: -22px 55px;
@@ -1451,12 +1475,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10359f', end
     padding: 0 60px;
 }
 
-.social-box-th,
-.social-box-ri {
-    display: none;
-    margin: 0;
-    padding: 0;
-}
 
 .link-social-box .link-social {
     height: 52px;
@@ -1732,3 +1750,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10359f', end
     display: flex;
     text-align: end;
 }
+
